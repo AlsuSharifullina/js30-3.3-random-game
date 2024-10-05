@@ -49,4 +49,13 @@ main{
     font-weight: bold;
     background: palevioletred;
     color: antiquewhite;
+    transition: 1s;
+    animation: move 2s;
+}
+
+@keyframes move {
+    0%{
+        opacity: 0.5;
+        transform: scale(0);
+    }
 }
